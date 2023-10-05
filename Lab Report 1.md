@@ -1,3 +1,5 @@
+### Lab Report 1
+
 **cd with no arguments**
 ```
 [user@sahara ~]$ cd
