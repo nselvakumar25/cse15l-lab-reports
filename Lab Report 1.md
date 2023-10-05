@@ -3,7 +3,7 @@
 [user@sahara ~]$ cd
 [user@sahara ~]$ 
 ```
-Working directory when command was run: /home
+Working directory when command was run: /home  
 Explanation: This command did not do anything because we did not specify what directory it should change to. As a result, it remained in the root directory.
 
 **cd with directory**
