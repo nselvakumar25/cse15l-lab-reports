@@ -39,7 +39,7 @@ Explanation: Without any arguments, it is assumed that we are asking for a list 
 Hello.class  Hello.java  messages  README
 ```
 Working directory when command was run: /home  
-Explanation: With lecture 1 as the argument, ls prints out a list of all the contents in the lecture1 directory.  
+Explanation: With lecture1 as the argument, ls prints out a list of all the contents in the lecture1 directory.  
 
 **ls with file**
 ```
