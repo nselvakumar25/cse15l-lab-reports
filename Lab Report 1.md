@@ -10,7 +10,7 @@ Working directory when command was run: /home
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$
 ```
-Working directory when command was run: lecture1
+Working directory when command was run: lecture1  
 Explanation: While the working directory was /home, this command did not change the directory. As a result, it remained in the home directory. However, when the working directory was lecture1, this command changed the directory back to the home directory. This shows that cd with no command is used to go back to the default home directory.
 Was it an error? No
 
