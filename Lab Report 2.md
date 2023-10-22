@@ -1,9 +1,9 @@
 #**PART 1**
 **Code for StringServer.java**  
-![StringServer.png](/github.com/nselvakumar25/cse15l-lab-reports/StringServer.png)
+![StringServer.png](github.com/nselvakumar25/cse15l-lab-reports/StringServer.png)
 
 **Screenshot #1**  
-![StringServer.png](/github.com/nselvakumar25/cse15l-lab-reports/Hello.png)  
+![StringServer.png](github.com/nselvakumar25/cse15l-lab-reports/Hello.png)  
 Methods that are called: handleRequest()  
 Relevant arguments: URI url  
 Value of fields before the request: 
@@ -16,7 +16,7 @@ How the fields change from this request:
 * num = 2
 
 **Screenshot #2**  
-![StringServer.png](/github.com/nselvakumar25/cse15l-lab-reports/How-are-you.png)  
+![StringServer.png](github.com/nselvakumar25/cse15l-lab-reports/How-are-you.png)  
 Methods that are called: handleRequest()  
 Relevant arguments: URI url  
 Value of fields before the request: 
