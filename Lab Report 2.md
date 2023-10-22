@@ -1,4 +1,4 @@
-#**PART 1**
+#**PART 1**  
 **Code for StringServer.java**  
 ![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/StringServer.png)
 
@@ -29,8 +29,8 @@ How the fields change from this request:
          2. How are you"
 * num = 3
 
-#**PART 2**
-![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/ssh-key.png)
+#**PART 2**  
+![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/ssh-key.png)  
 ![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/login.png)
 
 #**PART 3**  
