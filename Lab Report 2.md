@@ -1,15 +1,18 @@
-#**PART 1**# 
+**PART 1**
 **Code for StringServer.java**  
 ![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/StringServer.png)
 
 **Screenshot #1**  
 ![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/Hello.png)  
-Methods that are called: handleRequest()  
+Methods that are called: handleRequest() 
+
 Relevant arguments: URI url  
+
 Value of fields before the request: 
 * url = null
 * str = ""
 * num = 1
+
 How the fields change from this request:
 * url = /add-message?s=Hello 
 * str = "1. Hello"
@@ -18,11 +21,14 @@ How the fields change from this request:
 **Screenshot #2**  
 ![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/How-are-you.png)  
 Methods that are called: handleRequest()  
+
 Relevant arguments: URI url  
+
 Value of fields before the request: 
 * url = /add-message?s=Hello 
 * str = "1. Hello"
 * num = 2
+
 How the fields change from this request:
 * url = /add-message?s=How%20are%20you
 * str = "1. Hello"
