@@ -3,7 +3,7 @@
 ![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/StringServer.png)
 
 **Screenshot #1**  
-![StringServer.png](https://github.com/nselvakumar25/cse15l-lab-reports/Hello.png/)  
+![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/Hello.png)  
 Methods that are called: handleRequest()  
 Relevant arguments: URI url  
 Value of fields before the request: 
@@ -16,7 +16,7 @@ How the fields change from this request:
 * num = 2
 
 **Screenshot #2**  
-![StringServer.png](https://github.com/nselvakumar25/cse15l-lab-reports/How-are-you.png/)  
+![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/How are you.png)  
 Methods that are called: handleRequest()  
 Relevant arguments: URI url  
 Value of fields before the request: 
@@ -30,8 +30,7 @@ How the fields change from this request:
 * num = 3
 
 #**PART 2**
-![StringServer.png](/github.com/nselvakumar25/cse15l-lab-reports/ssh-key.png)  
-![StringServer.png](/github.com/nselvakumar25/cse15l-lab-reports/login.png)  
+![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/ssh key.png)
 
 #**PART 3**  
 In the lab from week 2, I learned how to compile .java files into .class files using the javac command. Then, I learned how to use the .class files to run a server.
