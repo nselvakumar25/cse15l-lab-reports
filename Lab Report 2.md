@@ -1,6 +1,6 @@
 **Code for StringServer.java**  
 
-![StringServer.png](https://github.com/nselvakumar25/cse15l-lab-reports/blob/main/StringServer.png)
+![StringServer.png](/github.com/nselvakumar25/cse15l-lab-reports/StringServer.png)
 
 
 
