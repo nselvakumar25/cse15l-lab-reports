@@ -16,7 +16,7 @@ How the fields change from this request:
 * num = 2
 
 **Screenshot #2**  
-![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/How are you.png)  
+![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/How-are-you.png)  
 Methods that are called: handleRequest()  
 Relevant arguments: URI url  
 Value of fields before the request: 
@@ -30,7 +30,7 @@ How the fields change from this request:
 * num = 3
 
 #**PART 2**
-![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/ssh key.png)
+![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/ssh-key.png)
 ![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/login.png)
 
 #**PART 3**  
