@@ -1,3 +1,4 @@
+#**PART 1**
 **Code for StringServer.java**  
 ![StringServer.png](/github.com/nselvakumar25/cse15l-lab-reports/StringServer.png)
 
@@ -27,3 +28,10 @@ How the fields change from this request:
 * str = "1. Hello"
          2. How are you"
 * num = 3
+
+#**PART 2**
+![StringServer.png](/github.com/nselvakumar25/cse15l-lab-reports/ssh-key.png)  
+![StringServer.png](/github.com/nselvakumar25/cse15l-lab-reports/login.png)  
+
+#**PART 3**
+In the lab from week 2, I learned how to compile .java files into .class files using the javac command. Then, I learned how to use the .class files to run a server.
