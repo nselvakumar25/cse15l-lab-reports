@@ -65,25 +65,8 @@ Source: man grep
 
 **Command-line option 2: grep -L**  
 example 1:
-```
-(base) Nishithas-MacBook-Air:docsearch nishi$ grep -L "helloo" technical/911report/*.txt
-technical/911report/chapter-1.txt
-technical/911report/chapter-10.txt
-technical/911report/chapter-11.txt
-technical/911report/chapter-12.txt
+(base) Nishithas-MacBook-Air:docsearch nishi$ grep -L "September" technical/911report/*.txt
 technical/911report/chapter-13.1.txt
-technical/911report/chapter-13.2.txt
-technical/911report/chapter-13.3.txt
-technical/911report/chapter-13.4.txt
-technical/911report/chapter-13.5.txt
-technical/911report/chapter-2.txt
-technical/911report/chapter-3.txt
-technical/911report/chapter-5.txt
-technical/911report/chapter-6.txt
-technical/911report/chapter-7.txt
-technical/911report/chapter-8.txt
-technical/911report/chapter-9.txt
-technical/911report/preface.txt
 ```
 example 2:
 ```
