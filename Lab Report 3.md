@@ -60,7 +60,8 @@ unaware of their need for treatment. The provision of alcohol
 these patients are unlikely to present for treatment on their
 How-ever, motivation can facilitate treatment. Studies suggest that
 ```
-What it's doing and why it's useful: 
+What it's doing and why it's useful:  
+Source: man grep  
 
 **Command-line option 2: grep -L**  
 example 1:
@@ -89,7 +90,8 @@ example 2:
 (base) Nishithas-MacBook-Air:docsearch nishi$ grep -L "environment" technical/government/Env_Prot_Agen/*.txt
 technical/government/Env_Prot_Agen/ctf7-10.txt
 ```
-What it's doing and why it's useful: 
+What it's doing and why it's useful:  
+Source: man grep  
 
 **Command-line option 3: grep -B num**
 example 1:
@@ -125,7 +127,8 @@ technical/plos/journal.pbio.0020347.txt:        described by Charles Darwin (185
 technical/plos/journal.pbio.0020439.txt-        opening the head, by using the Radon transform to infer the densities of materials at each
 technical/plos/journal.pbio.0020439.txt:        location within the head (Hsieh 2003). Charles Darwin was right when he wrote that people
 ```
-What it's doing and why it's useful: 
+What it's doing and why it's useful:  
+Source: man grep  
 
 **Command-line option 4: grep -n**
 example 1:
@@ -143,7 +146,9 @@ technical/biomed/1472-6947-3-5.txt:49:        another level of biomedical data i
 technical/biomed/1472-6947-3-8.txt:56:          Creators of biomedical databases use terminologies to
 technical/biomed/1472-6947-3-8.txt:624:        biomedical data sets. Public comment is welcomed.
 ```
-What it's doing and why it's useful: 
+What it's doing and why it's useful:  
+Source: man grep
+
 
 
 
