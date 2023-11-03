@@ -1,0 +1,38 @@
+A failure-inducing input for the buggy program, as a JUnit test 
+```
+@Test
+    public void testFilterFail() {
+        List<String> input = new ArrayList<String>();
+        input.add("a");
+        input.add("b");
+        input.add("c");
+        StringChecker sc = new StringCheck();
+
+        List<String> actualOutput = ListExamples.filter(input, sc);
+
+        List<String> expectedOutput = new ArrayList<String>();
+        expectedOutput.add("a");
+        expectedOutput.add("b");
+
+        assertEquals(expectedOutput, actualOutput);
+    }
+```
+
+An input that doesn’t induce a failure, as a JUnit test
+```
+@Test
+    public void testFilterSuccess() {
+        List<String> input = new ArrayList<String>();
+        input.add("a");
+        input.add("a");
+        StringChecker sc = new StringCheck();
+
+        List<String> actualOutput = ListExamples.filter(input, sc);
+
+        List<String> expectedOutput = new ArrayList<String>();
+        expectedOutput.add("a");
+        expectedOutput.add("a");
+
+        assertEquals(expectedOutput, actualOutput);
+    }
+```
