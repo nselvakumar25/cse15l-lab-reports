@@ -1,5 +1,6 @@
-PART 1
-A failure-inducing input for the buggy program, as a JUnit test 
+# Lab Report 3
+## PART 1
+**A failure-inducing input for the buggy program, as a JUnit test**
 ```
 @Test
     public void testFilterFail() {
@@ -19,7 +20,7 @@ A failure-inducing input for the buggy program, as a JUnit test
     }
 ```
 
-An input that doesn’t induce a failure, as a JUnit test
+**An input that doesn’t induce a failure, as a JUnit test**
 ```
 @Test
     public void testFilterSuccess() {
@@ -38,14 +39,13 @@ An input that doesn’t induce a failure, as a JUnit test
     }
 ```
 
-The symptom, as the output of running the tests  
+**The symptom, as the output of running the tests** 
 ![output of running tests](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/test-output-lab3.png)  
 
+**The bug, as the before-and-after code change required to fix it**  
 
-The bug, as the before-and-after code change required to fix it  
-
-PART 2
-Command-line option 1: grep -m num
+# PART 2
+**Command-line option 1: grep -m num**  
 example 1:
 ```
 (base) Nishithas-MacBook-Air:Alcohol_Problems nishi$ grep -m 3 alcohol Session3-PDF.txt
@@ -62,7 +62,7 @@ How-ever, motivation can facilitate treatment. Studies suggest that
 ```
 What it's doing and why it's useful: 
 
-Command-line option 2: grep -L
+**Command-line option 2: grep -L**  
 example 1:
 ```
 (base) Nishithas-MacBook-Air:docsearch nishi$ grep -L "helloo" technical/911report/*.txt
@@ -91,7 +91,7 @@ technical/government/Env_Prot_Agen/ctf7-10.txt
 ```
 What it's doing and why it's useful: 
 
-Command-line option 3: grep -B num
+**Command-line option 3: grep -B num**
 example 1:
 ```
 (base) Nishithas-MacBook-Air:docsearch nishi$ grep -L "environment" technical/government/Env_Prot_Agen/*.txt
@@ -127,7 +127,7 @@ technical/plos/journal.pbio.0020439.txt:        location within the head (Hsieh 
 ```
 What it's doing and why it's useful: 
 
-Command-line option 4: grep -n
+**Command-line option 4: grep -n**
 example 1:
 ```
 (base) Nishithas-MacBook-Air:docsearch nishi$ grep -n "Earth" technical/government/Env_Prot_Agen/*.txt
