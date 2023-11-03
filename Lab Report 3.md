@@ -92,7 +92,7 @@ unaware of their need for treatment. The provision of alcohol
 these patients are unlikely to present for treatment on their
 How-ever, motivation can facilitate treatment. Studies suggest that
 ```
-What it's doing and why it's useful: This command stops searching for a phrase in the given file(s) once it has printed out the number of instances of the phrase that has been specified by the user. This can be useful when users only want to look for a few instances of a phrase instead of every isntance.
+What it's doing and why it's useful: This command stops searching for a phrase in the given file(s) once it has printed out the number of instances of the phrase that has been specified by the user. This can be useful when users only want to look for a few instances of a phrase instead of every isntance.  
 Source: man grep  
 
 **Command-line option 2: grep -L**  
@@ -106,7 +106,7 @@ example 2:
 (base) Nishithas-MacBook-Air:docsearch nishi$ grep -L "environment" technical/government/Env_Prot_Agen/*.txt
 technical/government/Env_Prot_Agen/ctf7-10.txt
 ```
-What it's doing and why it's useful: This command only prints the names of files that do not have a given phrase. This can be useful in a situation where the user needs to filter out files that do not contain a key phrase in order to improve efficiency.
+What it's doing and why it's useful: This command only prints the names of files that do not have a given phrase. This can be useful in a situation where the user needs to filter out files that do not contain a key phrase in order to improve efficiency.  
 Source: man grep  
 
 **Command-line option 3: grep -B num**  
@@ -140,7 +140,7 @@ technical/plos/journal.pbio.0020347.txt:        described by Charles Darwin (185
 technical/plos/journal.pbio.0020439.txt-        opening the head, by using the Radon transform to infer the densities of materials at each
 technical/plos/journal.pbio.0020439.txt:        location within the head (Hsieh 2003). Charles Darwin was right when he wrote that people
 ```
-What it's doing and why it's useful: This command takes in a key phrase that is being searched for and a number of lines. Then, it prints out the given number of lines before the line with the key phrase as well as the line with the key phrase. This can be useful when users would like some context about the lines that the grep command prints out.
+What it's doing and why it's useful: This command takes in a key phrase that is being searched for and a number of lines. Then, it prints out the given number of lines before the line with the key phrase as well as the line with the key phrase. This can be useful when users would like some context about the lines that the grep command prints out.  
 Source: man grep  
 
 **Command-line option 4: grep -n**  
@@ -159,7 +159,7 @@ technical/biomed/1472-6947-3-5.txt:49:        another level of biomedical data i
 technical/biomed/1472-6947-3-8.txt:56:          Creators of biomedical databases use terminologies to
 technical/biomed/1472-6947-3-8.txt:624:        biomedical data sets. Public comment is welcomed.
 ```
-What it's doing and why it's useful: This command prints out the lines in the given files that contain a certain key phrase along with the corresponding line numbers. This can be useful when the user goes into the files where the key phrase has been found since they can easily find where the key phrase is located.
+What it's doing and why it's useful: This command prints out the lines in the given files that contain a certain key phrase along with the corresponding line numbers. This can be useful when the user goes into the files where the key phrase has been found since they can easily find where the key phrase is located.  
 Source: man grep
 
 
