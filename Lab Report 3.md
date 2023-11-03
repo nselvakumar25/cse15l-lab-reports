@@ -38,5 +38,9 @@ An input that doesn’t induce a failure, as a JUnit test
 ```
 
 The symptom, as the output of running the tests  
-![output of running tests](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/test-output-lab3.png)
+![output of running tests](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/test-output-lab3.png)  
+
+The bug, as the before-and-after code change required to fix it  
+
+
 
