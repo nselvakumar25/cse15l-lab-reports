@@ -36,3 +36,7 @@ An input that doesn’t induce a failure, as a JUnit test
         assertEquals(expectedOutput, actualOutput);
     }
 ```
+
+The symptom, as the output of running the tests  
+![output of running tests](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/test-output-lab3.png)
+
