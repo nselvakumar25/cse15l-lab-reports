@@ -93,7 +93,7 @@ technical/government/Env_Prot_Agen/ctf7-10.txt
 What it's doing and why it's useful:  
 Source: man grep  
 
-**Command-line option 3: grep -B num**
+**Command-line option 3: grep -B num**  
 example 1:
 ```
 (base) Nishithas-MacBook-Air:docsearch nishi$ grep -L "environment" technical/government/Env_Prot_Agen/*.txt
@@ -130,7 +130,7 @@ technical/plos/journal.pbio.0020439.txt:        location within the head (Hsieh 
 What it's doing and why it's useful:  
 Source: man grep  
 
-**Command-line option 4: grep -n**
+**Command-line option 4: grep -n**  
 example 1:
 ```
 (base) Nishithas-MacBook-Air:docsearch nishi$ grep -n "Earth" technical/government/Env_Prot_Agen/*.txt
