@@ -140,7 +140,7 @@ technical/plos/journal.pbio.0020347.txt:        described by Charles Darwin (185
 technical/plos/journal.pbio.0020439.txt-        opening the head, by using the Radon transform to infer the densities of materials at each
 technical/plos/journal.pbio.0020439.txt:        location within the head (Hsieh 2003). Charles Darwin was right when he wrote that people
 ```
-What it's doing and why it's useful: This command takes in a key phrase that is being searched for and a number of lines. Then, it prints out the given number of lines before the line with the key phrase as well as the line with the key phrase. This can be useful when users would like some context about the lines that the grep command prints out.  
+What it's doing and why it's useful: This command takes in a key phrase and a number of lines, n. Then, it prints out the line with the key phrase as well as n lines before the key phrase. This can be useful when users would like some context about the lines that the grep command prints out.  
 Source: man grep  
 
 **Command-line option 4: grep -n**  
