@@ -65,6 +65,7 @@ Source: man grep
 
 **Command-line option 2: grep -L**  
 example 1:
+```
 (base) Nishithas-MacBook-Air:docsearch nishi$ grep -L "September" technical/911report/*.txt
 technical/911report/chapter-13.1.txt
 ```
