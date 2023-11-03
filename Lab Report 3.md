@@ -44,7 +44,7 @@
 
 **The bug, as the before-and-after code change required to fix it**  
 
-# PART 2
+## PART 2
 **Command-line option 1: grep -m num**  
 example 1:
 ```
