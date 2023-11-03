@@ -127,9 +127,21 @@ technical/plos/journal.pbio.0020439.txt:        location within the head (Hsieh 
 ```
 What it's doing and why it's useful: 
 
-Command-line option 4: grep 
+Command-line option 4: grep -n
 example 1:
 ```
+(base) Nishithas-MacBook-Air:docsearch nishi$ grep -n "Earth" technical/government/Env_Prot_Agen/*.txt
+technical/government/Env_Prot_Agen/final.txt:392:form acidic compounds. These compounds fall to the Earth in either
+technical/government/Env_Prot_Agen/final.txt:505:We know the surface temperature of the Earth is warming. It has
+technical/government/Env_Prot_Agen/final.txt:510:warming. Greenhouse gases trap heat and thus warm the Earth because
+```
+example 2:
+```
+(base) Nishithas-MacBook-Air:docsearch nishi$ grep -n "biomedical data" technical/biomed/*.txt
+technical/biomed/1472-6882-3-3.txt:49:        Other biomedical databases that include CAM literature,
+technical/biomed/1472-6947-3-5.txt:49:        another level of biomedical data integration in which array
+technical/biomed/1472-6947-3-8.txt:56:          Creators of biomedical databases use terminologies to
+technical/biomed/1472-6947-3-8.txt:624:        biomedical data sets. Public comment is welcomed.
 ```
 
 
