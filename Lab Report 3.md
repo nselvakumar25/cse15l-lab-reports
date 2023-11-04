@@ -7,7 +7,7 @@
         List<String> input = new ArrayList<String>();
         input.add("a");
         input.add("b");
-        input.add("c");
+        input.add("c"); 
         StringChecker sc = new StringCheck();
 
         List<String> actualOutput = ListExamples.filter(input, sc);
