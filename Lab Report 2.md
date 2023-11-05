@@ -6,7 +6,30 @@
 **Screenshot #1**  
 ![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/Hello.png)  
 Methods that are called: handleRequest() 
+```
+String str = "";
+    int num = 1;
 
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return String.format("", str);
+        } else {
+            if (url.getPath().contains("/add-message")) {
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    str += String.valueOf(num) + ". "; 
+                    for(int i = 1; i < parameters.length; i++){
+                        str += parameters[i];
+                    }
+                    str += "\n";
+                    num += 1;
+                    return String.format("%s", str);
+                }
+            }
+            return "404 Not Found!";
+        }
+    }
+```
 Relevant arguments: URI url  
 
 Value of fields before the request: 
@@ -22,7 +45,30 @@ How the fields change from this request:
 **Screenshot #2**  
 ![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/How-are-you.png)  
 Methods that are called: handleRequest()  
+```
+String str = "";
+    int num = 1;
 
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return String.format("", str);
+        } else {
+            if (url.getPath().contains("/add-message")) {
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    str += String.valueOf(num) + ". "; 
+                    for(int i = 1; i < parameters.length; i++){
+                        str += parameters[i];
+                    }
+                    str += "\n";
+                    num += 1;
+                    return String.format("%s", str);
+                }
+            }
+            return "404 Not Found!";
+        }
+    }
+```
 Relevant arguments: URI url  
 
 Value of fields before the request: 
