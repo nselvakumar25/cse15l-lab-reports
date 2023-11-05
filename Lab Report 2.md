@@ -37,7 +37,9 @@ How the fields change from this request:
 * num = 3
 
 # PART 2  
-![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/ssh-key.png)  
+Path to Private Key  
+![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/ssh-key-private.png)  
+Path to Public Key  
 ![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/login.png)
 
 # PART 3  
