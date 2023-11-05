@@ -40,6 +40,9 @@ How the fields change from this request:
 Path to Private Key  
 ![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/ssh-key-private.png)  
 Path to Public Key  
+![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/ssh-key-public.png)  
+
+Logging into ieng6 without a password
 ![StringServer.png](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/login.png)
 
 # PART 3  
