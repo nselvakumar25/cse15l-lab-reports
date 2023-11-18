@@ -87,7 +87,7 @@ Excessive alcohol consumption plays an important role in many of
 documented the presence of alcohol among patients admitted to
 studies have demonstrated that even blood alcohol concentration
 ```
-What it's doing and why it's useful: This command stop searching for the phrase "alcohol" within the Session3-PDF.txt file once it has printed out 3 instances of "alcohol" as specified in the command. This can be useful when users only want to look for a few instances of a phrase instead of every instance.
+What it's doing and why it's useful: This command stops searching for the phrase "alcohol" within the Session3-PDF.txt file once it has printed out 3 instances of "alcohol" as specified in the command. This can be useful when users only want to look for a few instances of a phrase instead of every instance.
 example 2:
 ```
 (base) Nishithas-MacBook-Air:Alcohol_Problems nishi$ grep -m 3 treatment Session4-PDF.txt
@@ -95,7 +95,7 @@ unaware of their need for treatment. The provision of alcohol
 these patients are unlikely to present for treatment on their
 How-ever, motivation can facilitate treatment. Studies suggest that
 ```
-What it's doing and why it's useful: This command stop seatching for the phrase "treatment" within the Session4-PDF.txt file once it has printed out 3 instances of "treatment" as specified in the command. This can be useful when users only want to look for a few instances of a phrase instead of every instance.
+What it's doing and why it's useful: This command stops searching for the phrase "treatment" within the Session4-PDF.txt file once it has printed out 3 instances of "treatment" as specified in the command. This can be useful when users only want to look for a few instances of a phrase instead of every instance.
 Source: man grep  
 
 **Command-line option 2: grep -L**  
