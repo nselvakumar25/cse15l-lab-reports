@@ -1,6 +1,8 @@
 (1) Log into ieng6  
 ![step 1](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/step1-lab4.png)  
-ssh cs15lfa23of@ieng6.ucsd.edu<enter>  
+~~~
+ssh cs15lfa23of@ieng6.ucsd.edu<enter>
+~~~
 (2) Clone your fork of the repository from your Github account (using the SSH URL)  
 ![step 2](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/step2-lab4.png)  
 Click on the green Code button on Github and copy the SSH url  
