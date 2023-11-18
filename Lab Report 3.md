@@ -67,6 +67,8 @@ static List<String> filter(List<String> list, StringChecker sc) {
     return result;
   }
 ```
+This fix addresses the issue because it makes sure to add s at the end of the result ArrayList instead of at the beginning. This ensures that all elements are added in the same order instead of backwards.  
+
 output from running tests after fixing the bug
 ```
 JUnit version 4.13.2
@@ -85,6 +87,7 @@ Excessive alcohol consumption plays an important role in many of
 documented the presence of alcohol among patients admitted to
 studies have demonstrated that even blood alcohol concentration
 ```
+What it's doing and why it's useful: This command stop searching for the phrase "alcohol" within the Session3-PDF.txt file once it has printed out 3 instances of "alcohol" as specified in the command. This can be useful when users only want to look for a few instances of a phrase instead of every instance.
 example 2:
 ```
 (base) Nishithas-MacBook-Air:Alcohol_Problems nishi$ grep -m 3 treatment Session4-PDF.txt
@@ -92,7 +95,7 @@ unaware of their need for treatment. The provision of alcohol
 these patients are unlikely to present for treatment on their
 How-ever, motivation can facilitate treatment. Studies suggest that
 ```
-What it's doing and why it's useful: This command stops searching for a phrase in the given file(s) once it has printed out the number of instances of the phrase that has been specified by the user. This can be useful when users only want to look for a few instances of a phrase instead of every isntance.  
+What it's doing and why it's useful: This command stop seatching for the phrase "treatment" within the Session4-PDF.txt file once it has printed out 3 instances of "treatment" as specified in the command. This can be useful when users only want to look for a few instances of a phrase instead of every instance.
 Source: man grep  
 
 **Command-line option 2: grep -L**  
@@ -101,12 +104,14 @@ example 1:
 (base) Nishithas-MacBook-Air:docsearch nishi$ grep -L "September" technical/911report/*.txt
 technical/911report/chapter-13.1.txt
 ```
+What it's doing and why it's useful: This command only prints the names of .txt files in the 911report directory that do not have the phrase "September". This can be useful in a situation where the user needs to filter out files that do not contain a key phrase in order to improve efficiency.  
+
 example 2:
 ```
 (base) Nishithas-MacBook-Air:docsearch nishi$ grep -L "environment" technical/government/Env_Prot_Agen/*.txt
 technical/government/Env_Prot_Agen/ctf7-10.txt
 ```
-What it's doing and why it's useful: This command only prints the names of files that do not have a given phrase. This can be useful in a situation where the user needs to filter out files that do not contain a key phrase in order to improve efficiency.  
+What it's doing and why it's useful: This command only prints the names of .txt files in the Env_Prot_Agen directory that do not have the phrase "environment". This can be useful in a situation where the user needs to filter out files that do not contain a key phrase in order to improve efficiency.  
 Source: man grep  
 
 **Command-line option 3: grep -B num**  
@@ -125,6 +130,8 @@ technical/government/Env_Prot_Agen/final.txt-to the 1970s, and then sharply risi
 technical/government/Env_Prot_Agen/final.txt-to today. There is a natural greenhouse effect that contributes to
 technical/government/Env_Prot_Agen/final.txt:warming. Greenhouse gases trap heat and thus warm the Earth because
 ```
+What it's doing and why it's useful: This command takes in the key phrase "Earth" and a number of lines, 2. Then, for each .txt file in the Env_Prot_Agen directory, it prints out the lines with "Earth" as well as 2 lines before that line. This can be useful when users would like some context about the lines that the grep command prints out.  
+
 example 2:
 ```
 (base) Nishithas-MacBook-Air:docsearch nishi$ grep -B 1 "Charles Darwin" technical/plos/*.txt
@@ -140,7 +147,7 @@ technical/plos/journal.pbio.0020347.txt:        described by Charles Darwin (185
 technical/plos/journal.pbio.0020439.txt-        opening the head, by using the Radon transform to infer the densities of materials at each
 technical/plos/journal.pbio.0020439.txt:        location within the head (Hsieh 2003). Charles Darwin was right when he wrote that people
 ```
-What it's doing and why it's useful: This command takes in a key phrase and a number of lines, n. Then, it prints out the line with the key phrase as well as n lines before the key phrase. This can be useful when users would like some context about the lines that the grep command prints out.  
+What it's doing and why it's useful: This command takes in the key phrase "Charles Darwin" and a number of lines, 1. Then, for each .txt file in the plos directory, it prints out the lines with "Charles Darwin" as well as the previous line. This can be useful when users would like some context about the lines that the grep command prints out.  
 Source: man grep  
 
 **Command-line option 4: grep -n**  
@@ -151,6 +158,7 @@ technical/government/Env_Prot_Agen/final.txt:392:form acidic compounds. These co
 technical/government/Env_Prot_Agen/final.txt:505:We know the surface temperature of the Earth is warming. It has
 technical/government/Env_Prot_Agen/final.txt:510:warming. Greenhouse gases trap heat and thus warm the Earth because
 ```
+What it's doing and why it's useful: This command prints out the lines in the .txt files of the Env_Prot_Agen directory that contain the word "Earth" along with the corresponding line numbers. This can be useful when the user goes into the files where the key phrase has been found since they can easily find where the key phrase is located.  
 example 2:
 ```
 (base) Nishithas-MacBook-Air:docsearch nishi$ grep -n "biomedical data" technical/biomed/*.txt
@@ -159,7 +167,7 @@ technical/biomed/1472-6947-3-5.txt:49:        another level of biomedical data i
 technical/biomed/1472-6947-3-8.txt:56:          Creators of biomedical databases use terminologies to
 technical/biomed/1472-6947-3-8.txt:624:        biomedical data sets. Public comment is welcomed.
 ```
-What it's doing and why it's useful: This command prints out the lines in the given files that contain a certain key phrase along with the corresponding line numbers. This can be useful when the user goes into the files where the key phrase has been found since they can easily find where the key phrase is located.  
+What it's doing and why it's useful: This command prints out the lines in the .txt files of the biomed directory that contain the word "biomedical data" along with the corresponding line numbers. This can be useful when the user goes into the files where the key phrase has been found since they can easily find where the key phrase is located.  
 Source: man grep
 
 
