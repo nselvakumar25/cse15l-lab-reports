@@ -7,7 +7,7 @@ Hello, I keep getting this error when I try to run the tests on ListExamples.jav
 **TA's Response:**  
 Hey, I recommend trying to see which ArrayList variable is actually being altered. Check this using jdb and seeing the values of each variable on a given line.
 
-Screenshot of student figuring out the bug using the TA's advice:
+**Screenshot of student figuring out the bug using the TA's advice:**
 ![part 2](https://raw.githubusercontent.com/nselvakumar25/cse15l-lab-reports/main/lab5-p2.png)  
 This shows that the list array has all the elements it should have but the result array is not having any elements added to it. Looking back at the code, we can see that this is because, in the for-each loop of the filter method, we are adding values to the variable list rather than the variable result. Not only does this lead to incorrect output, but it also creates an error. This error is created because the for-each loop is traversing the list variable but list is being changed during the traversal process.  
 
