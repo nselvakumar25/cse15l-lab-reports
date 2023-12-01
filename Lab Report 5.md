@@ -13,6 +13,7 @@ This shows that the list array has all the elements it should have but the resul
 
 **Setup:**  
 File and Directory Structure:  
+~~~
 lab-report-5-cse15l  
     lib  
         hamcrest-core-1.3.jar  
@@ -20,7 +21,8 @@ lab-report-5-cse15l
     .gitignore  
     ListExamples.java  
     ListExamplesTests.java  
-    test.sh  
+    test.sh
+~~~
 
 Contents of ListExamples.java  
 ~~~
